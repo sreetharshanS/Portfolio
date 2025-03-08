@@ -383,3 +383,66 @@ footer .link-group a:hover{
     color: #fff;
     animation: pulse 3s infinite;
 }
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .home h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .c-orange {
+        font-size: 3rem;
+    }
+    
+    .home p {
+        font-size: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-menu {
+        font-size: 1.2rem;
+    }
+
+    .expertise h4 {
+        font-size: 1.2rem;
+    }
+
+    .expertise .service-card {
+        padding: 10px;
+    }
+
+    .progress-card {
+        padding: 10% 5% 10% 5%;
+    }
+
+    .testimonial i {
+        font-size: 2rem;
+    }
+
+    .contact-details p {
+        font-size: 1rem;
+    }
+
+    .contact-form .form-control {
+        width: 100%;
+    }
+
+    footer .link-group a {
+        font-size: 1rem;
+    }
+
+    .social-links button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    /* Adjusting button back to top */
+    #btn-back-to-top {
+        bottom: 20px;
+        right: 20px;
+        font-size: 1.2rem;
+    }
+}
